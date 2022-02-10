@@ -1,0 +1,12 @@
+name = input("Enter name :")
+group = input("Enter group:")
+java = int(input("Enter java subject marks"))
+os = int(input("Enter OS subject marks"))
+AFM = int(input("Enter AFM subject marks"))
+AS = int(input("Enter AS subject marks"))
+OB = int(input("Enter OB subject marks"))
+EE = int(input("Enter EE subject marks"))
+if java>=35 and os>=35 and AFM>=35 and AS>=35 and OB>=35 and EE>=35:
+    print(name,group,"PASS")
+else:
+      print(name,group,"FAIL")
