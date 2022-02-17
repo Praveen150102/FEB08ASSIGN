@@ -1,0 +1,17 @@
+n = int(input("Enter n value:"))
+summ=0
+print("The even numbers are:")
+for i in range(2,n,2):
+    print(i)
+    summ=summ+i
+print("The sum of all even num are:",summ)
+n1 = int(input("Enter n value:"))
+summ1=0
+print("The odd numbers are:")
+for i in range(n1):
+    if(i%2!=0):
+         print(i)
+         summ1=summ1+i
+print("The sum of all odd num are:",summ1)
+total=summ+summ1
+print("The sum of both Odd and Even num are:",total)
