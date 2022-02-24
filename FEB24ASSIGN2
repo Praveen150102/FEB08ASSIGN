@@ -1,0 +1,18 @@
+l=[]
+c1=0
+n = int(input("Enter n value"))
+for b in range(n):
+    x=int(input())
+    m=l.append(x)
+    l1=len(l)
+for i in range(l1):
+    for j in range(2,l[i]):
+        if l[i]%j==0:
+           break
+    else:
+            c1=c1+1
+print(c1)
+    
+                    
+    
+#WRONG CODE
