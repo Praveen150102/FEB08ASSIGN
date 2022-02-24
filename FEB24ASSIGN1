@@ -1,0 +1,14 @@
+n = int(input())
+l=[]
+for b in range (n):
+    x = int(input())
+    l.append(x)
+l1=len(l)
+e=[]
+o=[]
+for i in range(l1):
+    if l[i]%2==0:
+        e.append(l)
+print(e)
+
+#wrong code
